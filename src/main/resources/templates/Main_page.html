@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/Main.css}">
+    <link rel="stylesheet"
+          th:href="@{https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css}">
+    <link rel="icon" href="/css/Icon.ico">
+    <title>Main</title>
+</head>
+<body>
+<main>
+    <div class="select">
+        <div class="text">Выберите функцию</div>
+        <a class="links" th:href="@{/avg/find_avg}">Найти среднее значение</a>
+        <a class="links" th:href="@{/pal/find_pal}">Проверка на палиндром</a>
+        <a class="links" th:href="@{/reverse/find_reverse}">Произвести реверс</a>
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <hr class="line">
+        <div class="text2"> Сверстал Саян</div>
+        <div class="icons">
+            <a href="mailto: asssayani@gmail.com" target="_blank"><i class="fa fa-google"></i></a>
+            <a href="https://wa.me/+77474942575" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://github.com/SayanRuN" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+    </footer>
+</main>
+</body>
